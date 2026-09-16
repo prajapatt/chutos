@@ -136,3 +136,4 @@ gdt_tss_descriptor: times 16 db 0
 .pointer:
     dw $ - gdt64 - 1
     dq gdt64
+
